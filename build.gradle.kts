@@ -39,7 +39,7 @@ dependencies {
 }
 
 kotlin {
-    js(IR) {
+    js(BOTH) {
         binaries.executable()
 
         nodejs {
